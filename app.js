@@ -33,4 +33,4 @@ console.log(process.env.CORS_ALLOW);
 
 app.get('/',(req,res)=>{
     res.send('Socket backend');
-})
+});
