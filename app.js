@@ -10,7 +10,7 @@ const app=express();
 //     }
 // });
 
-server.listen(80,()=>{console.log('Server running at PORT 5173')});
+app.listen(80,()=>{console.log('Server running at PORT 5173')});
 console.log(process.env.CORS_ALLOW);
 // const botName = 'TalentChat Bot';
 // io.on("connection",(socket)=>{
